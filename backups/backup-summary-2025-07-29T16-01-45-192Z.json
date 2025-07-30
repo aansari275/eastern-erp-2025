@@ -1,0 +1,18 @@
+{
+  "backupFile": "backups/sampling-backup-2025-07-29T16-01-45-192Z.json",
+  "timestamp": "2025-07-29T16:01:42.055Z",
+  "totalCollections": 10,
+  "collectionSummary": {
+    "rugs": 93,
+    "rugGallery": 0,
+    "materials": 0,
+    "costings": 0,
+    "buyers": 43,
+    "sampleInspections": 0,
+    "users": 9,
+    "quotes": 9,
+    "pdocs": 196,
+    "buyerArticlesNo": 0
+  },
+  "totalDocuments": 350
+}
