@@ -1,0 +1,67 @@
+Create a Firebase function or Express route
+In your server or Firebase Functions, add an endpoint that accepts a prompt and optional parameters (like image dimensions, sampler type). For example in Node:
+
+ts
+Copy
+Edit
+// functions/generatePattern.ts
+import fetch from 'node-fetch';
+
+export const generatePattern = functions.https.onCall(async (data, context) => {
+  const prompt = data.prompt;
+  const response = await fetch('https://api.stability.ai/v1/generation/sdXL-v1.0/text-to-image', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${process.env.STABILITY_AI_API_KEY}`
+    },
+    body: JSON.stringify({
+      prompt,
+      cfg_scale: 7,
+      width: 1024,
+      height: 1024,
+      steps: 30
+    })
+  });
+
+  if (!response.ok) {
+    throw new functions.https.HttpsError('internal', 'Stability AI request failed');
+  }
+
+  const result = await response.json();
+  // result.artifacts[0].base64 contains the generated image
+  return { image: result.artifacts[0].base64 };
+});
+Adjust the endpoint URL and body fields according to the Stability AI docs and the model you’re using (e.g. SDXL for high‑quality patterns).
+
+Call the function from your React app
+
+Use Firebase’s httpsCallable if you’re using callable functions:
+
+ts
+Copy
+Edit
+import { getFunctions, httpsCallable } from 'firebase/functions';
+
+const functions = getFunctions();
+const generatePattern = httpsCallable(functions, 'generatePattern');
+
+async function handleGenerate(prompt: string) {
+  const { data } = await generatePattern({ prompt });
+  // `data.image` will be a Base64 string – convert to a data URL:
+  const imgSrc = `data:image/png;base64,${data.image}`;
+  // Add the new image to your canvas
+}
+If you’re using an Express route, make a fetch/axios POST request to your backend’s /api/stability/generate endpoint instead.
+
+Handle responses and errors
+
+Display a loading indicator while waiting for the AI response.
+
+Catch and show any errors returned from your function (e.g. invalid prompt or API limit reached).
+
+Consider limiting image size or prompt length to keep costs reasonable.
+
+Optional: Save images to Storage
+If you want to persist the generated patterns, upload the returned base64 image to Firebase Storage (using the Firebase SDK) and store the file URL in Firestore or PostgreSQL.
+

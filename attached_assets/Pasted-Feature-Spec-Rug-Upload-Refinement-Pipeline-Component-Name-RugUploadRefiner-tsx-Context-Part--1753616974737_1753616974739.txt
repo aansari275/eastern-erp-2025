@@ -1,0 +1,127 @@
+Feature Spec: "Rug Upload & Refinement Pipeline"
+Component Name: RugUploadRefiner.tsx
+Context: Part of DesignStudio Pro / Rug Canva
+Goal: Cleanly upload, mask, vectorize, and extract colors from a rug image, with full control over size, shape, and color processing.
+
+✅ Step-by-Step UX Flow:
+Rug Upload Modal / Sidebar
+
+Button: Upload Rug Design (Auto Vectorize)
+
+Once image is selected:
+
+Ask:
+
+less
+Copy
+Edit
+Select Rug Shape:
+[ Rectangle ] [ Round ] [ Square ] [ Runner ]
+Then:
+
+yaml
+Copy
+Edit
+Enter Rug Size:
+Width: [   ] cm   Height: [   ] cm
+Continue to masking/cropping
+
+Crop / Mask Background
+
+Show uploaded image inside a shape mask (based on step above)
+
+Allow user to:
+
+Manually adjust crop
+
+Mask outside area
+
+Optional toggle: Auto Remove Background [ ]
+
+Optional slider: Background tolerance [ 30% ]
+
+Color Extraction Settings
+
+After confirming crop:
+
+Prompt:
+
+css
+Copy
+Edit
+How many colors to extract?
+[ 4 ▼ ] (Dropdown or Slider from 3 to 10)
+Button: Extract & Vectorize
+
+Post-Vectorization Controls
+
+Display extracted design on canvas
+
+Show extracted colors on right sidebar with:
+
+Color swatches
+
+Red “×” icon to delete a color
+
+Button: Shuffle Colors
+
+Button: Remove Background
+
+Button: Reset to Original
+
+Working Undo/Redo
+
+Show “Design Colors: (6)” label
+
+Optional (Next Phase)
+
+Drag-to-select color regions on canvas
+
+AI Palette Suggestions based on current design
+
+🎨 UI Prompt (for Figma, Replit Canvas, or Sketch)
+Design a left-aligned modal or sidebar with these sections:
+
+Upload & Settings
+
+Upload Button (⚡ Auto Vectorize)
+
+Rug Shape Picker (Rectangle, Square, Round, Runner)
+
+Size Input (Width x Height in cm)
+
+[Crop Image] preview pane
+
+Background Tolerance slider
+
+Color Settings
+
+Dropdown or slider to select number of colors (3–10)
+
+Button: "Extract & Vectorize"
+
+After Vectorization
+
+Canvas displays clean vectorized rug
+
+Sidebar:
+
+Color swatches with delete icons
+
+Shuffle Colors button
+
+Remove Background
+
+Reset
+
+Undo / Redo buttons
+
+🛠️ Tech Notes for Dev
+Vectorization engine: use existing flow
+
+Color reduction: cluster similar RGB values using K-Means or quantization
+
+Crop/Mask: Use canvas overlay + mouse selector (Fabric.js already supports masking + clipping)
+
+Add undo/redo with a history[] stack and .save() checkpoint per action
+

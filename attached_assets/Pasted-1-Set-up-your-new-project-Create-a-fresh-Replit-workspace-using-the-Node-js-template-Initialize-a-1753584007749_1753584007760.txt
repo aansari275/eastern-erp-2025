@@ -1,0 +1,94 @@
+1. Set up your new project
+Create a fresh Replit workspace using the Node.js template.
+
+Initialize a monorepo structure:
+
+text
+Copy
+Edit
+root/
+├── client/   (React front end)
+├── functions/ (Firebase Cloud Functions)
+├── .firebaserc
+├── firebase.json
+└── README.md
+Install the Firebase CLI in the Replit shell (npm install -g firebase-tools) and run firebase init. Choose:
+
+Hosting (for the front end)
+
+Functions (for server‑side code)
+
+Firestore and Storage if you plan to use them later
+Configure these to the project you created in the Firebase console.
+
+2. Build the front‑end (client)
+Scaffold a React app in client/ using Vite (fast and easy):
+
+bash
+Copy
+Edit
+cd client
+npm create vite@latest . -- --template react-ts
+npm install
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install firebase react-dnd @react-dnd/html5-backend fabric
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+Configure Tailwind (tailwind.config.js) and add dark mode support.
+
+Initialize Firebase SDK in client/src/lib/firebase.ts with your config.
+
+Set up routing using Wouter or React Router (a simple home page and a design studio page).
+
+Create core components:
+
+DesignCanvas.tsx – wraps a Fabric.js canvas, handles loading images/patterns and colour replacement.
+
+PatternLibrary.tsx – lists default patterns (hard‑code a few SVGs to start).
+
+ColorPalette.tsx – shows ARS colours and a custom colour picker.
+
+ImageUploader.tsx – drag‑and‑drop file input, uploads to Firebase Storage or directly into state.
+
+AIPatternGenerator.tsx – a form to call your Cloud Function for Stability AI (later).
+
+Wire up state using React hooks; for external data (patterns, saved designs) use TanStack Query if needed.
+
+3. Implement the Firebase backend
+In functions/, initialize your TypeScript functions:
+
+bash
+Copy
+Edit
+cd functions
+npm init -y
+npm install firebase-admin sharp node-fetch
+npm install -D typescript ts-node @types/express
+Write Cloud Functions:
+
+generatePattern.ts – accepts a text prompt, calls Stability AI’s API and returns the image URL. You can stub this initially with a placeholder image.
+
+processImage.ts – accepts an uploaded image, uses sharp to resize and reduce colours (via quantisation) and returns the processed result or uploads it back to Storage.
+
+Export these functions in index.ts and deploy them with firebase deploy --only functions.
+
+4. Connect front end to backend
+Consume Cloud Functions from the React app via Firebase’s callable functions or REST endpoints. For example, when the user submits a prompt, call generatePattern and display the returned image in your DesignCanvas.
+
+For the colour‑reduction function, either:
+
+Call the Cloud Function after the image upload and update the canvas with the processed image, or
+
+Perform quantisation directly in the browser using Fabric.js and your own quantisation logic if you prefer less server round‑trip.
+
+5. Implement saving and loading designs
+Define a Firestore schema for designs (title, owner UID, canvas JSON, created/updated timestamps).
+
+Create endpoints or functions to save and fetch designs. From the client, allow users to click “Save” and store the serialized Fabric.js canvas.
+
+On the dashboard, list the user’s saved designs with options to load or delete.
+

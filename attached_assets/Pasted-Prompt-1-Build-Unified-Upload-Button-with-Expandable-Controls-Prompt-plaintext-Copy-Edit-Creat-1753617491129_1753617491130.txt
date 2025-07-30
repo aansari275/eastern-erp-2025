@@ -1,0 +1,56 @@
+Prompt 1: Build Unified Upload Button with Expandable Controls
+💬 Prompt:
+
+plaintext
+Copy
+Edit
+Create a React component in TypeScript called `RugUploader`. It should include a single main button: "Upload Rug Design (Auto Vectorize + Refiner)". When clicked, the button should expand (accordion-style) to reveal advanced settings:
+1. Shape Selector with buttons: Rectangle, Square, Round, Runner. Only one can be selected at a time.
+2. Rug Size input fields: Width and Height (in cm), with a "Lock Aspect Ratio" checkbox.
+3. Color Extraction: dropdown to select number of colors (3 to 10).
+4. A file input (image upload) that appears at the bottom of the expanded section.
+The shape selected should immediately update a shape preview (e.g. div with border) above the upload button, mimicking how the canvas will appear.
+Style it with Tailwind CSS and make it responsive. Add smooth transitions for expanding/collapsing the section.
+🧩 Prompt 2: Make It Interactive with Live Preview Logic
+💬 Prompt:
+
+plaintext
+Copy
+Edit
+Update the `RugUploader` component so that:
+- When a shape (e.g. Square, Round) is selected, show a responsive preview area (div or canvas) in that shape.
+- When size values are entered (in cm), update the preview area dimensions live.
+- If "Lock Aspect Ratio" is checked, changing one dimension should update the other proportionally.
+- When a rug image is uploaded, preview it inside the shaped frame (use an <img> tag or fabric.js canvas).
+- Save the selected shape, size, and uploaded image in component state.
+Use React state and Tailwind for styling.
+🧩 Prompt 3: Trigger Image Refinement + Vectorization on Upload
+💬 Prompt:
+
+plaintext
+Copy
+Edit
+After the user uploads a rug image in the `RugUploader`, send it to a backend API route `/api/refine-and-vectorize`. Include in the POST:
+- The uploaded image (as base64 or file)
+- Selected shape (e.g. 'square', 'round')
+- Size (width and height in cm)
+- Number of colors to extract
+Receive a JSON response from the backend with:
+- Vectorized SVG image
+- Extracted color palette (array of hex or RGB)
+Display the vector in the preview area and show color swatches below it.
+🧩 Prompt 4: Add Color Controls + Cleanup Buttons
+💬 Prompt:
+
+plaintext
+Copy
+Edit
+Add the following to the `RugUploader` or surrounding design panel:
+- Display the extracted colors as swatches (circles or squares).
+- Allow user to click a color to open a color picker and change it.
+- Add a red “×” icon on each color to remove it (merging logic can follow).
+- Add buttons:
+  - Shuffle Colors (randomly swap colors in palette)
+  - Remove Background
+  - Reset to Original
+Implement undo/redo functionality using a stack-based approach for canvas actions.

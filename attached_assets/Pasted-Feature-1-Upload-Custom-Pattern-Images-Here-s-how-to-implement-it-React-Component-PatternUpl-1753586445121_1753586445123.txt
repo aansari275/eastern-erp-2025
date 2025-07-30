@@ -1,0 +1,90 @@
+Feature 1: Upload Custom Pattern Images
+Here’s how to implement it:
+
+🔧 React Component – PatternUploader.tsx
+tsx
+Copy
+Edit
+import { useState } from 'react';
+import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
+
+export default function PatternUploader({ onUpload }: { onUpload: (url: string) => void }) {
+  const [uploading, setUploading] = useState(false);
+
+  async function handleUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    setUploading(true);
+    const storage = getStorage();
+    const path = `patterns/${Date.now()}-${file.name}`;
+    const storageRef = ref(storage, path);
+    await uploadBytes(storageRef, file);
+    const url = await getDownloadURL(storageRef);
+    setUploading(false);
+    onUpload(url);
+  }
+
+  return (
+    <div className="mt-2">
+      <input type="file" accept="image/*" onChange={handleUpload} />
+      {uploading && <p className="text-sm text-gray-500">Uploading...</p>}
+    </div>
+  );
+}
+✅ Feature 2: Add to Pattern Library UI
+Update your pattern library sidebar to include the new uploader and a dynamic gallery:
+
+tsx
+Copy
+Edit
+import { useState } from 'react';
+import PatternUploader from './PatternUploader';
+
+const [patterns, setPatterns] = useState<string[]>([
+  '/defaults/mughal.png',
+  '/defaults/kilim.png',
+  '/defaults/ikat.png',
+]); // preload some
+
+function addNewPattern(url: string) {
+  setPatterns((prev) => [url, ...prev]);
+}
+
+return (
+  <div className="space-y-2">
+    <h2 className="text-lg font-semibold">Pattern Library</h2>
+    <PatternUploader onUpload={addNewPattern} />
+    <div className="grid grid-cols-3 gap-2">
+      {patterns.map((url, idx) => (
+        <img
+          key={idx}
+          src={url}
+          alt="pattern"
+          className="rounded shadow cursor-pointer hover:scale-105 transition"
+          onClick={() => insertToCanvas(url)}
+        />
+      ))}
+    </div>
+  </div>
+);
+✅ Feature 3: Improve AI Prompt UI
+Update your generator to suggest textile prompts:
+
+tsx
+Copy
+Edit
+const presetPrompts = [
+  "floral mughal rug with antique wash",
+  "berber geometric neutral tones",
+  "ikat textile with earthy colors",
+  "minimalist scandinavian pattern",
+  "vintage medallion faded palette",
+];
+
+<select onChange={(e) => setPrompt(e.target.value)}>
+  <option disabled selected>Select a preset</option>
+  {presetPrompts.map((p, idx) => (
+    <option key={idx} value={p}>{p}</option>
+  ))}
+</select>

@@ -1,0 +1,90 @@
+Please improve the rug upload popup flow with the following logic and UX refinements:
+
+🧩 Functional Requirements
+Unit Toggle
+
+Add a toggle or dropdown to switch between Centimeters and Feet.
+
+Default to Centimeters.
+
+If the user switches units, convert the values accordingly.
+
+Shape Selection
+
+Let user choose shape: Rectangle, Square, Round, Runner.
+
+Shape affects which size fields are editable:
+
+Rectangle and Runner: width and height are editable.
+
+Square and Round: lock width = height. Only one input is shown.
+
+Automatically update the canvas size and shape when a selection is made.
+
+Canvas Binding
+
+The selected size and shape should reflect directly on the main canvas. If user selects 150x220cm Rectangle, canvas updates instantly to that ratio.
+
+Image Upload
+
+Keep one single unified button: Upload Rug Design.
+
+Once image is uploaded:
+
+Show a preview or thumbnail
+
+Auto-start vectorization (or allow a follow-up "Vectorize" click)
+
+Place the vector on canvas centered and scaled properly (not cropped or misaligned)
+
+Let’s Go Button
+
+Add a clear “Let’s Go” or “Continue” button in the popup after all options are selected.
+
+Clicking this:
+
+Closes the popup
+
+Places the rug on canvas
+
+Begins vectorization or next step
+
+Disable Redundant Buttons
+
+Remove all extra buttons like Upload, Upload & Vectorize, Vectorize, etc.
+
+Just one clear action based on the flow described above.
+
+🎨 Optional: Figma-like Animation & Microinteractions (UI Polish)
+Use Tailwind transitions or Framer Motion to:
+
+Animate Shape Picker
+
+Add active state animations (highlighting / background pill slide).
+
+Auto-lock Inputs
+
+Animate height field fading out when Square or Round selected.
+
+Unit Switch
+
+Smoothly convert values when toggling between cm/ft (with easing).
+
+Let’s Go Button
+
+Hover scale effect (scale: 1.05)
+
+Loading state after click (spinner or “Uploading…”)
+
+Disable if no image or dimensions selected.
+
+Modal Animation
+
+Fade in + scale up modal when it opens
+
+Fade out cleanly on close or submit
+
+Upload Preview
+
+Show image preview thumbnail with smooth slide-in animation
+
