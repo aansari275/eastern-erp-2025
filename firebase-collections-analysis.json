@@ -1,0 +1,2349 @@
+{
+  "article_numbers": {
+    "documentCount": 18645,
+    "sampleDocs": [
+      {
+        "id": "1752989293835",
+        "fields": [
+          "buyerId",
+          "rugId",
+          "articleNumber",
+          "buyerArticleCode",
+          "designName",
+          "color",
+          "size",
+          "construction",
+          "quality",
+          "unitPrice",
+          "currency",
+          "leadTime",
+          "minimumOrder",
+          "notes",
+          "isActive",
+          "id",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "buyerId": "3",
+          "rugId": null,
+          "articleNumber": "",
+          "buyerArticleCode": "",
+          "designName": "BH-19-MA-487-V3",
+          "color": "TAIGA",
+          "size": "30x40",
+          "construction": "HAND KNOTTED",
+          "quality": "",
+          "unitPrice": null,
+          "currency": "USD",
+          "leadTime": "",
+          "minimumOrder": null,
+          "notes": "Imported from ERP - Original buyer code: A-02",
+          "isActive": true,
+          "id": 1752989293835,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1752989293902",
+        "fields": [
+          "buyerId",
+          "rugId",
+          "articleNumber",
+          "buyerArticleCode",
+          "designName",
+          "color",
+          "size",
+          "construction",
+          "quality",
+          "unitPrice",
+          "currency",
+          "leadTime",
+          "minimumOrder",
+          "notes",
+          "isActive",
+          "id",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "buyerId": "3",
+          "rugId": null,
+          "articleNumber": "",
+          "buyerArticleCode": "",
+          "designName": "BH-20-CO-1955",
+          "color": "LICHEN",
+          "size": "330x600",
+          "construction": "HANDLOOM",
+          "quality": "",
+          "unitPrice": null,
+          "currency": "USD",
+          "leadTime": "",
+          "minimumOrder": null,
+          "notes": "Imported from ERP - Original buyer code: A-02",
+          "isActive": true,
+          "id": 1752989293902,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1752989294016",
+        "fields": [
+          "buyerId",
+          "rugId",
+          "articleNumber",
+          "buyerArticleCode",
+          "designName",
+          "color",
+          "size",
+          "construction",
+          "quality",
+          "unitPrice",
+          "currency",
+          "leadTime",
+          "minimumOrder",
+          "notes",
+          "isActive",
+          "id",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "buyerId": "3",
+          "rugId": null,
+          "articleNumber": "",
+          "buyerArticleCode": "",
+          "designName": "BH-20-MA-644",
+          "color": "MOSS",
+          "size": "280x300",
+          "construction": "HAND KNOTTED",
+          "quality": "",
+          "unitPrice": null,
+          "currency": "USD",
+          "leadTime": "",
+          "minimumOrder": null,
+          "notes": "Imported from ERP - Original buyer code: A-02",
+          "isActive": true,
+          "id": 1752989294016,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1752989294061",
+        "fields": [
+          "buyerId",
+          "rugId",
+          "articleNumber",
+          "buyerArticleCode",
+          "designName",
+          "color",
+          "size",
+          "construction",
+          "quality",
+          "unitPrice",
+          "currency",
+          "leadTime",
+          "minimumOrder",
+          "notes",
+          "isActive",
+          "id",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "buyerId": "3",
+          "rugId": null,
+          "articleNumber": "",
+          "buyerArticleCode": "",
+          "designName": "BH-21-CO-783",
+          "color": "CHALK",
+          "size": "165x235",
+          "construction": "HAND WOVEN",
+          "quality": "",
+          "unitPrice": null,
+          "currency": "USD",
+          "leadTime": "",
+          "minimumOrder": null,
+          "notes": "Imported from ERP - Original buyer code: A-02",
+          "isActive": true,
+          "id": 1752989294061,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1752989294128",
+        "fields": [
+          "buyerId",
+          "rugId",
+          "articleNumber",
+          "buyerArticleCode",
+          "designName",
+          "color",
+          "size",
+          "construction",
+          "quality",
+          "unitPrice",
+          "currency",
+          "leadTime",
+          "minimumOrder",
+          "notes",
+          "isActive",
+          "id",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "buyerId": "3",
+          "rugId": null,
+          "articleNumber": "",
+          "buyerArticleCode": "",
+          "designName": "BH-22-CO-2445",
+          "color": "GRENADE",
+          "size": "250x320",
+          "construction": "HANDLOOM",
+          "quality": "",
+          "unitPrice": null,
+          "currency": "USD",
+          "leadTime": "",
+          "minimumOrder": null,
+          "notes": "Imported from ERP - Original buyer code: A-02",
+          "isActive": true,
+          "id": 1752989294128,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      }
+    ],
+    "purpose": "Unknown"
+  },
+  "audit": {
+    "documentCount": 8,
+    "sampleDocs": [
+      {
+        "id": "ShXeIyrFiyV7pZzFhd4C",
+        "fields": [
+          "auditDate",
+          "company",
+          "auditor",
+          "status",
+          "checklist",
+          "createdAt"
+        ],
+        "sampleData": {
+          "auditDate": "2025-07-27",
+          "company": "EHI",
+          "auditor": "Console Test",
+          "status": "draft",
+          "checklist": "[Array: 1 items]",
+          "createdAt": "2025-07-27T16:51:26.783Z"
+        }
+      },
+      {
+        "id": "WvpBfrPQfJu0GnRBrLl5",
+        "fields": [
+          "auditDate",
+          "company",
+          "auditor",
+          "status",
+          "checklist",
+          "createdAt"
+        ],
+        "sampleData": {
+          "auditDate": "2025-07-28",
+          "company": "EHI",
+          "auditor": "Validation Fix Test",
+          "status": "draft",
+          "checklist": "[Array: 1 items]",
+          "createdAt": "2025-07-28T03:50:14.153Z"
+        }
+      },
+      {
+        "id": "XKK0UJp9fc6SxK78YVEt",
+        "fields": [
+          "auditDate",
+          "company",
+          "auditor",
+          "status",
+          "checklist",
+          "createdAt",
+          "submittedAt"
+        ],
+        "sampleData": {
+          "auditDate": "2025-07-27",
+          "company": "EHI",
+          "auditor": "FIREBASE_CONSOLE_VISIBILITY_TEST",
+          "status": "submitted",
+          "checklist": "[Array: 1 items]",
+          "createdAt": "2025-07-27T16:51:58.253Z",
+          "submittedAt": "2025-07-27T16:51:58.253Z"
+        }
+      },
+      {
+        "id": "h8rQaanwQx1sbHvtlxl6",
+        "fields": [
+          "auditDate",
+          "company",
+          "auditor",
+          "status",
+          "checklist",
+          "createdAt",
+          "submittedAt"
+        ],
+        "sampleData": {
+          "auditDate": "2025-07-27",
+          "company": "EMPL",
+          "auditor": "Firebase Test User",
+          "status": "submitted",
+          "checklist": "[Array: 1 items]",
+          "createdAt": "2025-07-27T16:49:50.011Z",
+          "submittedAt": "2025-07-27T16:49:50.011Z"
+        }
+      },
+      {
+        "id": "iZZSy94WGV0dVPrs5ZLn",
+        "fields": [
+          "auditDate",
+          "company",
+          "auditor",
+          "status",
+          "checklist",
+          "createdAt"
+        ],
+        "sampleData": {
+          "auditDate": "2025-07-27",
+          "company": "EHI",
+          "auditor": "DEBUG TEST",
+          "status": "draft",
+          "checklist": "[Array: 1 items]",
+          "createdAt": "2025-07-27T16:55:04.028Z"
+        }
+      }
+    ],
+    "purpose": "Audit System"
+  },
+  "auditForms": {
+    "documentCount": 2,
+    "sampleDocs": [
+      {
+        "id": "A8n1m1MgQpRXp3f3rB9a",
+        "fields": [
+          "createdBy",
+          "status",
+          "company",
+          "auditType",
+          "sections",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "createdBy": "abdulansari@easternmills.com",
+          "status": "draft",
+          "company": "Eastern Home Industries",
+          "auditType": "Final Inspection",
+          "sections": "[Array: 2 items]",
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "WCRZmLF0PJA80rkhPQvr",
+        "fields": [
+          "createdBy",
+          "status",
+          "company",
+          "auditType",
+          "sections",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "createdBy": "abdulansari@easternmills.com",
+          "status": "submitted",
+          "company": "Eastern Home Industries",
+          "auditType": "Washing",
+          "sections": "[Array: 1 items]",
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      }
+    ],
+    "purpose": "Audit System"
+  },
+  "buyers": {
+    "documentCount": 43,
+    "sampleDocs": [
+      {
+        "id": "1753006695866",
+        "fields": [
+          "id",
+          "buyerName",
+          "buyerCode",
+          "name",
+          "code",
+          "merchantId",
+          "reference",
+          "currency",
+          "paymentTerms",
+          "deliveryAddress",
+          "invoiceAddress",
+          "shipmentMethod",
+          "articleNumbers",
+          "notes",
+          "isActive",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "id": 1753006695866,
+          "buyerName": "ABC ITALIA",
+          "buyerCode": "A-05",
+          "name": "ABC ITALIA",
+          "code": "A-05",
+          "merchantId": "",
+          "reference": "",
+          "currency": "USD",
+          "paymentTerms": "",
+          "deliveryAddress": "",
+          "invoiceAddress": "",
+          "shipmentMethod": "",
+          "articleNumbers": "[Array: 0 items]",
+          "notes": "",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1753006696807",
+        "fields": [
+          "id",
+          "buyerName",
+          "buyerCode",
+          "name",
+          "code",
+          "merchantId",
+          "reference",
+          "currency",
+          "paymentTerms",
+          "deliveryAddress",
+          "invoiceAddress",
+          "shipmentMethod",
+          "articleNumbers",
+          "notes",
+          "isActive",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "id": 1753006696807,
+          "buyerName": "Ferm Living",
+          "buyerCode": "F-01",
+          "name": "Ferm Living",
+          "code": "F-01",
+          "merchantId": "",
+          "reference": "",
+          "currency": "USD",
+          "paymentTerms": "",
+          "deliveryAddress": "",
+          "invoiceAddress": "",
+          "shipmentMethod": "",
+          "articleNumbers": "[Array: 0 items]",
+          "notes": "",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1753006698386",
+        "fields": [
+          "id",
+          "buyerName",
+          "buyerCode",
+          "name",
+          "code",
+          "merchantId",
+          "reference",
+          "currency",
+          "paymentTerms",
+          "deliveryAddress",
+          "invoiceAddress",
+          "shipmentMethod",
+          "articleNumbers",
+          "notes",
+          "isActive",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "id": 1753006698386,
+          "buyerName": "Menu",
+          "buyerCode": "M-01",
+          "name": "Menu",
+          "code": "M-01",
+          "merchantId": "",
+          "reference": "",
+          "currency": "USD",
+          "paymentTerms": "",
+          "deliveryAddress": "",
+          "invoiceAddress": "",
+          "shipmentMethod": "",
+          "articleNumbers": "[Array: 0 items]",
+          "notes": "",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1753006698746",
+        "fields": [
+          "id",
+          "buyerName",
+          "buyerCode",
+          "name",
+          "code",
+          "merchantId",
+          "reference",
+          "currency",
+          "paymentTerms",
+          "deliveryAddress",
+          "invoiceAddress",
+          "shipmentMethod",
+          "articleNumbers",
+          "notes",
+          "isActive",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "id": 1753006698746,
+          "buyerName": "Kpetto",
+          "buyerCode": "K-01",
+          "name": "Kpetto",
+          "code": "K-01",
+          "merchantId": "",
+          "reference": "",
+          "currency": "USD",
+          "paymentTerms": "",
+          "deliveryAddress": "",
+          "invoiceAddress": "",
+          "shipmentMethod": "",
+          "articleNumbers": "[Array: 0 items]",
+          "notes": "",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1753006698890",
+        "fields": [
+          "id",
+          "buyerName",
+          "buyerCode",
+          "name",
+          "code",
+          "merchantId",
+          "reference",
+          "currency",
+          "paymentTerms",
+          "deliveryAddress",
+          "invoiceAddress",
+          "shipmentMethod",
+          "articleNumbers",
+          "notes",
+          "isActive",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "id": 1753006698890,
+          "buyerName": "Kawamoto",
+          "buyerCode": "K-02",
+          "name": "Kawamoto",
+          "code": "K-02",
+          "merchantId": "",
+          "reference": "",
+          "currency": "USD",
+          "paymentTerms": "",
+          "deliveryAddress": "",
+          "invoiceAddress": "",
+          "shipmentMethod": "",
+          "articleNumbers": "[Array: 0 items]",
+          "notes": "",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      }
+    ],
+    "purpose": "Business Data (KEEP)"
+  },
+  "complianceAudits": {
+    "documentCount": 6,
+    "sampleDocs": [
+      {
+        "id": "8RkuKr10NfuVBK72RJrA",
+        "fields": [
+          "company",
+          "auditorName",
+          "location",
+          "auditScope",
+          "auditDate",
+          "createdBy",
+          "createdAt",
+          "checklist",
+          "submittedAt",
+          "status",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "company": "EHI",
+          "auditorName": "Test Auditor",
+          "location": "Main Factory",
+          "auditScope": "Complete compliance verification",
+          "auditDate": "2025-01-29",
+          "createdBy": "test-script",
+          "createdAt": "2025-07-29T06:19:47.397Z",
+          "checklist": "[Array: 3 items]",
+          "submittedAt": "2025-07-29T06:19:47.736Z",
+          "status": "submitted",
+          "updatedAt": "2025-07-29T06:19:47.736Z"
+        }
+      },
+      {
+        "id": "CkonYiynuStsoJU3a2DE",
+        "fields": [
+          "company",
+          "auditorName",
+          "location",
+          "auditScope",
+          "auditDate",
+          "createdBy",
+          "createdAt",
+          "checklist",
+          "submittedAt",
+          "status",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "company": "EHI",
+          "auditorName": "Test Auditor",
+          "location": "Main Factory",
+          "auditScope": "Complete compliance verification",
+          "auditDate": "2025-01-29",
+          "createdBy": "test-script",
+          "createdAt": "2025-07-29T06:21:01.044Z",
+          "checklist": "[Array: 3 items]",
+          "submittedAt": "2025-07-29T06:21:01.423Z",
+          "status": "submitted",
+          "updatedAt": "2025-07-29T06:21:01.423Z"
+        }
+      },
+      {
+        "id": "DTBIkl8MDbKy5c8TLypZ",
+        "fields": [
+          "company",
+          "auditorName",
+          "location",
+          "auditScope",
+          "auditDate",
+          "createdBy",
+          "createdAt",
+          "checklist",
+          "submittedAt",
+          "status",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "company": "EHI",
+          "auditorName": "Test Auditor",
+          "location": "Main Factory",
+          "auditScope": "Complete compliance verification",
+          "auditDate": "2025-01-29",
+          "createdBy": "test-script",
+          "createdAt": "2025-07-29T06:20:23.140Z",
+          "checklist": "[Array: 3 items]",
+          "submittedAt": "2025-07-29T06:20:23.524Z",
+          "status": "submitted",
+          "updatedAt": "2025-07-29T06:20:23.524Z"
+        }
+      },
+      {
+        "id": "Vsyx0hoiUdmwsyWn6s7O",
+        "fields": [
+          "company",
+          "auditorName",
+          "location",
+          "auditScope",
+          "auditDate",
+          "createdBy",
+          "createdAt",
+          "checklist",
+          "submittedAt",
+          "status",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "company": "EHI",
+          "auditorName": "Test Auditor",
+          "location": "Main Factory",
+          "auditScope": "Complete compliance verification",
+          "auditDate": "2025-01-29",
+          "createdBy": "test-script",
+          "createdAt": "2025-07-29T06:20:09.008Z",
+          "checklist": "[Array: 3 items]",
+          "submittedAt": "2025-07-29T06:20:09.369Z",
+          "status": "submitted",
+          "updatedAt": "2025-07-29T06:20:09.369Z"
+        }
+      },
+      {
+        "id": "bG7Rh665JSl3ZHkSnigk",
+        "fields": [
+          "company",
+          "auditorName",
+          "location",
+          "auditScope",
+          "auditDate",
+          "createdBy",
+          "createdAt",
+          "checklist",
+          "submittedAt",
+          "status",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "company": "EHI",
+          "auditorName": "Test Auditor",
+          "location": "Main Factory",
+          "auditScope": "Complete compliance verification",
+          "auditDate": "2025-01-29",
+          "createdBy": "test-script",
+          "createdAt": "2025-07-29T06:19:08.076Z",
+          "checklist": "[Array: 3 items]",
+          "submittedAt": "2025-07-29T06:19:08.489Z",
+          "status": "submitted",
+          "updatedAt": "2025-07-29T06:19:08.489Z"
+        }
+      }
+    ],
+    "purpose": "Unknown"
+  },
+  "department_tabs": {
+    "documentCount": 12,
+    "sampleDocs": [
+      {
+        "id": "merchandising-buyers",
+        "fields": [
+          "id",
+          "department_id",
+          "name",
+          "slug",
+          "is_active",
+          "created_at",
+          "updated_at"
+        ],
+        "sampleData": {
+          "id": "merchandising-buyers",
+          "department_id": "merchandising",
+          "name": "Buyer Management",
+          "slug": "buyers",
+          "is_active": true,
+          "created_at": "[Object]",
+          "updated_at": "[Object]"
+        }
+      },
+      {
+        "id": "merchandising-pdoc",
+        "fields": [
+          "id",
+          "department_id",
+          "name",
+          "slug",
+          "is_active",
+          "created_at",
+          "updated_at"
+        ],
+        "sampleData": {
+          "id": "merchandising-pdoc",
+          "department_id": "merchandising",
+          "name": "PDOC Management",
+          "slug": "pdoc",
+          "is_active": true,
+          "created_at": "[Object]",
+          "updated_at": "[Object]"
+        }
+      },
+      {
+        "id": "production-overview",
+        "fields": [
+          "id",
+          "department_id",
+          "name",
+          "slug",
+          "is_active",
+          "created_at",
+          "updated_at"
+        ],
+        "sampleData": {
+          "id": "production-overview",
+          "department_id": "production",
+          "name": "Overview",
+          "slug": "overview",
+          "is_active": true,
+          "created_at": "[Object]",
+          "updated_at": "[Object]"
+        }
+      },
+      {
+        "id": "production-schedule",
+        "fields": [
+          "id",
+          "department_id",
+          "name",
+          "slug",
+          "is_active",
+          "created_at",
+          "updated_at"
+        ],
+        "sampleData": {
+          "id": "production-schedule",
+          "department_id": "production",
+          "name": "Schedule",
+          "slug": "schedule",
+          "is_active": true,
+          "created_at": "[Object]",
+          "updated_at": "[Object]"
+        }
+      },
+      {
+        "id": "quality-bazaar",
+        "fields": [
+          "id",
+          "department_id",
+          "name",
+          "slug",
+          "is_active",
+          "created_at",
+          "updated_at"
+        ],
+        "sampleData": {
+          "id": "quality-bazaar",
+          "department_id": "quality",
+          "name": "Bazaar Inspection",
+          "slug": "bazaar",
+          "is_active": true,
+          "created_at": "[Object]",
+          "updated_at": "[Object]"
+        }
+      }
+    ],
+    "purpose": "Unknown"
+  },
+  "departments": {
+    "documentCount": 7,
+    "sampleDocs": [
+      {
+        "id": "admin",
+        "fields": [
+          "id",
+          "name",
+          "description",
+          "is_active",
+          "created_at",
+          "updated_at"
+        ],
+        "sampleData": {
+          "id": "admin",
+          "name": "Admin",
+          "description": "Administrative Department",
+          "is_active": true,
+          "created_at": "[Object]",
+          "updated_at": "[Object]"
+        }
+      },
+      {
+        "id": "dept001",
+        "fields": [
+          "DepartmentId",
+          "DepartmentName",
+          "ManagerId"
+        ],
+        "sampleData": {
+          "DepartmentId": "dept001",
+          "DepartmentName": "Sampling",
+          "ManagerId": "user123"
+        }
+      },
+      {
+        "id": "dept002",
+        "fields": [
+          "DepartmentId",
+          "DepartmentName",
+          "ManagerId"
+        ],
+        "sampleData": {
+          "DepartmentId": "dept002",
+          "DepartmentName": "Merchandising",
+          "ManagerId": "user456"
+        }
+      },
+      {
+        "id": "merchandising",
+        "fields": [
+          "id",
+          "name",
+          "description",
+          "is_active",
+          "created_at",
+          "updated_at"
+        ],
+        "sampleData": {
+          "id": "merchandising",
+          "name": "Merchandising",
+          "description": "Merchandising Department",
+          "is_active": true,
+          "created_at": "[Object]",
+          "updated_at": "[Object]"
+        }
+      },
+      {
+        "id": "production",
+        "fields": [
+          "id",
+          "name",
+          "description",
+          "is_active",
+          "created_at",
+          "updated_at"
+        ],
+        "sampleData": {
+          "id": "production",
+          "name": "Production",
+          "description": "Production Department",
+          "is_active": true,
+          "created_at": "[Object]",
+          "updated_at": "[Object]"
+        }
+      }
+    ],
+    "purpose": "System Configuration"
+  },
+  "extractedText": {
+    "documentCount": 6,
+    "sampleDocs": [
+      {
+        "id": "8ICCUkM6GNeqiBKY6W3l",
+        "fields": [
+          "file",
+          "text"
+        ],
+        "sampleData": {
+          "file": "gs://rugcraftpro.firebasestorage.app/uploads/pdf_1...",
+          "text": null
+        }
+      },
+      {
+        "id": "ApdMXVUuKI2cqlvARBSX",
+        "fields": [
+          "file",
+          "text"
+        ],
+        "sampleData": {
+          "file": "gs://rugcraftpro.firebasestorage.app/ocr-processin...",
+          "text": null
+        }
+      },
+      {
+        "id": "K7nhNq6plQBn6PqnBN8b",
+        "fields": [
+          "file",
+          "text"
+        ],
+        "sampleData": {
+          "file": "gs://rugcraftpro.firebasestorage.app/ocr-processin...",
+          "text": null
+        }
+      },
+      {
+        "id": "K9nv4BZpO8j9AoKsCoiA",
+        "fields": [
+          "file",
+          "text"
+        ],
+        "sampleData": {
+          "file": "gs://rugcraftpro.firebasestorage.app/images/pdf_17...",
+          "text": null
+        }
+      },
+      {
+        "id": "PY5Y25JMUxINhtqiK88o",
+        "fields": [
+          "file",
+          "text"
+        ],
+        "sampleData": {
+          "file": "gs://rugcraftpro.firebasestorage.app/ocr-processin...",
+          "text": null
+        }
+      }
+    ],
+    "purpose": "Unknown"
+  },
+  "labInspections": {
+    "documentCount": 1,
+    "sampleDocs": [
+      {
+        "id": "c6PteJtKVfaNMC7Pr6VD",
+        "fields": [
+          "company",
+          "inspectionType",
+          "dateOfIncoming",
+          "challanInvoiceNo",
+          "supplierName",
+          "transportCondition",
+          "materialDetails",
+          "lotNo",
+          "articleName",
+          "tagNo",
+          "shadeNo",
+          "qty",
+          "programQty",
+          "selectedHanks",
+          "sampleResults",
+          "overallStatus",
+          "remarks",
+          "checkedBy",
+          "createdBy",
+          "createdAt",
+          "verifiedBy",
+          "submittedAt",
+          "status",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "company": "EHI",
+          "inspectionType": "dyed",
+          "dateOfIncoming": "2025-01-29",
+          "challanInvoiceNo": "CH001",
+          "supplierName": "Test Supplier Ltd",
+          "transportCondition": "ok",
+          "materialDetails": "Wool yarn - Red color",
+          "lotNo": "LOT001",
+          "articleName": "Premium Wool",
+          "tagNo": "TAG001",
+          "shadeNo": "RED001",
+          "qty": "100 KG",
+          "programQty": "100 KG",
+          "selectedHanks": 50,
+          "sampleResults": "[Array: 1 items]",
+          "overallStatus": "pass",
+          "remarks": "All tests passed successfully",
+          "checkedBy": "Lab Technician",
+          "createdBy": "test-script",
+          "createdAt": "2025-07-29T06:23:47.619Z",
+          "verifiedBy": "Quality Manager",
+          "submittedAt": "2025-07-29T06:23:47.956Z",
+          "status": "submitted",
+          "updatedAt": "2025-07-29T06:23:47.956Z"
+        }
+      }
+    ],
+    "purpose": "Unknown"
+  },
+  "opsLineItems": {
+    "documentCount": 1671,
+    "sampleDocs": [
+      {
+        "id": "06s6VHHgHzSxFxEo0icl",
+        "fields": [
+          "buyerArticleNumber",
+          "designName",
+          "color",
+          "size",
+          "buyerName",
+          "buyerDesignCode",
+          "construction",
+          "quality",
+          "currency",
+          "isActive",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "buyerArticleNumber": "",
+          "designName": "SOLID SILK",
+          "color": "GREIGE",
+          "size": "5.0x8.0",
+          "buyerName": "EMPL RB",
+          "buyerDesignCode": "EMPL-RB",
+          "construction": "HANDLOOM",
+          "quality": "HANDLOOM",
+          "currency": "USD",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "0B1GrVKCavrUT6At5GbB",
+        "fields": [
+          "buyerArticleNumber",
+          "designName",
+          "color",
+          "size",
+          "buyerName",
+          "buyerDesignCode",
+          "construction",
+          "quality",
+          "currency",
+          "isActive",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "buyerArticleNumber": "",
+          "designName": "EM-25-LA-413",
+          "color": "MULTI",
+          "size": "45x45",
+          "buyerName": "EMPL RB",
+          "buyerDesignCode": "EMPL-RB",
+          "construction": "HAND TUFTED",
+          "quality": "HAND TUFTED",
+          "currency": "USD",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "0EN2LXUCkEZrauFnXDnW",
+        "fields": [
+          "buyerArticleNumber",
+          "designName",
+          "color",
+          "size",
+          "buyerName",
+          "buyerDesignCode",
+          "construction",
+          "quality",
+          "currency",
+          "isActive",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "buyerArticleNumber": "",
+          "designName": "PLAIN",
+          "color": "CREAM",
+          "size": "2.0x2.0",
+          "buyerName": "R-03",
+          "buyerDesignCode": "R-03",
+          "construction": "VDW",
+          "quality": "VDW",
+          "currency": "USD",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "0ENxnsuX065v6icYeiky",
+        "fields": [
+          "buyerArticleNumber",
+          "designName",
+          "color",
+          "size",
+          "buyerName",
+          "buyerDesignCode",
+          "construction",
+          "quality",
+          "currency",
+          "isActive",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "buyerArticleNumber": "",
+          "designName": "EM-22-MA-4657",
+          "color": "LT.GREY",
+          "size": "10.0x15.0",
+          "buyerName": "EMPL RB",
+          "buyerDesignCode": "EMPL-RB",
+          "construction": "HAND TUFTED",
+          "quality": "HAND TUFTED",
+          "currency": "USD",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "0H6fdTQwf4a8VtCnptr2",
+        "fields": [
+          "buyerArticleNumber",
+          "designName",
+          "color",
+          "size",
+          "buyerName",
+          "buyerDesignCode",
+          "construction",
+          "quality",
+          "currency",
+          "isActive",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "buyerArticleNumber": "",
+          "designName": "EM-21-MA-2828",
+          "color": "4N19",
+          "size": "1.0x1.0",
+          "buyerName": "A-07",
+          "buyerDesignCode": "A-07",
+          "construction": "INDO NEPALI",
+          "quality": "INDO NEPALI",
+          "currency": "USD",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      }
+    ],
+    "purpose": "Unknown"
+  },
+  "pdocs": {
+    "documentCount": 196,
+    "sampleDocs": [
+      {
+        "id": "0Sg33Aa132Ji4f0zVV5y",
+        "fields": [
+          "buyerId",
+          "rugId",
+          "pdocNumber",
+          "buyerProductDesignCode",
+          "productType",
+          "pdocStatus",
+          "buyerArticleName",
+          "ted",
+          "articleNumber",
+          "pdocCreationDate",
+          "createdAt",
+          "updatedAt",
+          "construction",
+          "color",
+          "size"
+        ],
+        "sampleData": {
+          "buyerId": 1752989476222,
+          "rugId": 1,
+          "pdocNumber": "PDOC-K-03-1752999027882-2066",
+          "buyerProductDesignCode": "K-03/TARTAN-1",
+          "productType": "Rug",
+          "pdocStatus": "draft",
+          "buyerArticleName": "TARTAN-1",
+          "ted": "HAND TUFTED rug in 4H-11+2B02+4L09 color, size 60x...",
+          "articleNumber": "K-03-TARTAN1-4H112B024L09",
+          "pdocCreationDate": "[Object]",
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]",
+          "construction": "HAND TUFTED",
+          "color": "4H-11+2B02+4L09",
+          "size": "60x90"
+        }
+      },
+      {
+        "id": "0VdYr42p9WfXEFySmSRx",
+        "fields": [
+          "buyerId",
+          "rugId",
+          "pdocNumber",
+          "buyerProductDesignCode",
+          "productType",
+          "pdocStatus",
+          "buyerArticleName",
+          "ted",
+          "articleNumber",
+          "pdocCreationDate",
+          "createdAt",
+          "updatedAt",
+          "construction",
+          "color",
+          "size"
+        ],
+        "sampleData": {
+          "buyerId": 1752989356285,
+          "rugId": 1,
+          "pdocNumber": "PDOC-C-05-1752999028574-2183",
+          "buyerProductDesignCode": "C-05/EM-25-FA-9096",
+          "productType": "Rug",
+          "pdocStatus": "draft",
+          "buyerArticleName": "EM-25-FA-9096",
+          "ted": "VDW rug in COLORWAY-02 color, size 2.5x4.0",
+          "articleNumber": "C-05-EM25FA9096-COLORWAY02",
+          "pdocCreationDate": "[Object]",
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]",
+          "construction": "VDW",
+          "color": "COLORWAY-02",
+          "size": "2.5x4.0"
+        }
+      },
+      {
+        "id": "0bgxQIDljTlbW8dBIOcI",
+        "fields": [
+          "buyerId",
+          "rugId",
+          "pdocNumber",
+          "buyerProductDesignCode",
+          "productType",
+          "pdocStatus",
+          "buyerArticleName",
+          "ted",
+          "articleNumber",
+          "pdocCreationDate",
+          "createdAt",
+          "updatedAt",
+          "construction",
+          "color",
+          "size"
+        ],
+        "sampleData": {
+          "buyerId": 1752990089768,
+          "rugId": 1,
+          "pdocNumber": "PDOC-T-04-1752999024021-737",
+          "buyerProductDesignCode": "T-04/NOMAD",
+          "productType": "Rug",
+          "pdocStatus": "draft",
+          "buyerArticleName": "NOMAD",
+          "ted": "HAND KNOTTED rug in CAMEL/BUR.CARAM color, size 50...",
+          "articleNumber": "T-04-NOMAD-CAMELBURCARAM",
+          "pdocCreationDate": "[Object]",
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]",
+          "construction": "HAND KNOTTED",
+          "color": "CAMEL/BUR.CARAM",
+          "size": "50x70"
+        }
+      },
+      {
+        "id": "1RcteLO50c7GkEax5PQP",
+        "fields": [
+          "buyerId",
+          "rugId",
+          "pdocNumber",
+          "buyerProductDesignCode",
+          "productType",
+          "pdocStatus",
+          "buyerArticleName",
+          "ted",
+          "articleNumber",
+          "pdocCreationDate",
+          "createdAt",
+          "updatedAt",
+          "construction",
+          "color",
+          "size"
+        ],
+        "sampleData": {
+          "buyerId": 1752989476222,
+          "rugId": 1,
+          "pdocNumber": "PDOC-K-03-1752999028105-2136",
+          "buyerProductDesignCode": "K-03/EM-21-MA-2363",
+          "productType": "Rug",
+          "pdocStatus": "draft",
+          "buyerArticleName": "EM-21-MA-2363",
+          "ted": "HAND KNOTTED rug in BEIGE/MULTY color, size 60x90",
+          "articleNumber": "K-03-EM21MA2363-BEIGEMULTY",
+          "pdocCreationDate": "[Object]",
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]",
+          "construction": "HAND KNOTTED",
+          "color": "BEIGE/MULTY",
+          "size": "60x90"
+        }
+      },
+      {
+        "id": "1raKli2GqCoomG2DjJ0v",
+        "fields": [
+          "buyerId",
+          "rugId",
+          "pdocNumber",
+          "buyerProductDesignCode",
+          "productType",
+          "pdocStatus",
+          "buyerArticleName",
+          "ted",
+          "articleNumber",
+          "pdocCreationDate",
+          "createdAt",
+          "updatedAt",
+          "construction",
+          "color",
+          "size"
+        ],
+        "sampleData": {
+          "buyerId": 1752989499631,
+          "rugId": 1,
+          "pdocNumber": "PDOC-L-05-1752999024261-875",
+          "buyerProductDesignCode": "L-05/EM-23-CO-5448",
+          "productType": "Rug",
+          "pdocStatus": "draft",
+          "buyerArticleName": "EM-23-CO-5448",
+          "ted": "HAND WOVEN rug in 4I01+4N13+4M15 color, size 1.6x1...",
+          "articleNumber": "L-05-EM23CO5448-4I014N134M15",
+          "pdocCreationDate": "[Object]",
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]",
+          "construction": "HAND WOVEN",
+          "color": "4I01+4N13+4M15",
+          "size": "1.6x1.6"
+        }
+      }
+    ],
+    "purpose": "Unknown"
+  },
+  "quality_inspections_bazar": {
+    "documentCount": 3,
+    "sampleDocs": [
+      {
+        "id": "35FLAMWqh6TydpPbWlQh",
+        "fields": [
+          "inspectionDate",
+          "opsNo",
+          "totalPcs",
+          "passPcs",
+          "reworkPcs",
+          "failPcs",
+          "defectType",
+          "defectPhotos",
+          "createdAt"
+        ],
+        "sampleData": {
+          "inspectionDate": "2025-01-26",
+          "opsNo": "OPS-001",
+          "totalPcs": 100,
+          "passPcs": 95,
+          "reworkPcs": 3,
+          "failPcs": 2,
+          "defectType": "Minor staining",
+          "defectPhotos": "[Array: 0 items]",
+          "createdAt": "[Object]"
+        }
+      },
+      {
+        "id": "J9gnlj7vzVS5kbyQIxou",
+        "fields": [
+          "inspectionDate",
+          "opsNo",
+          "totalPcs",
+          "passPcs",
+          "reworkPcs",
+          "failPcs",
+          "defectType",
+          "defectPhotos",
+          "createdAt"
+        ],
+        "sampleData": {
+          "inspectionDate": "2025-01-24",
+          "opsNo": "OPS-003",
+          "totalPcs": 80,
+          "passPcs": 72,
+          "reworkPcs": 6,
+          "failPcs": 2,
+          "defectType": "Edge fraying",
+          "defectPhotos": "[Array: 0 items]",
+          "createdAt": "[Object]"
+        }
+      },
+      {
+        "id": "SGjQwwmCksBDjdLSYnG4",
+        "fields": [
+          "inspectionDate",
+          "opsNo",
+          "totalPcs",
+          "passPcs",
+          "reworkPcs",
+          "failPcs",
+          "defectType",
+          "defectPhotos",
+          "createdAt"
+        ],
+        "sampleData": {
+          "inspectionDate": "2025-01-25",
+          "opsNo": "OPS-002",
+          "totalPcs": 150,
+          "passPcs": 145,
+          "reworkPcs": 4,
+          "failPcs": 1,
+          "defectType": "Color variation",
+          "defectPhotos": "[Array: 0 items]",
+          "createdAt": "[Object]"
+        }
+      }
+    ],
+    "purpose": "Unknown"
+  },
+  "quotes": {
+    "documentCount": 9,
+    "sampleDocs": [
+      {
+        "id": "1753029170669",
+        "fields": [
+          "clientName",
+          "quoteName",
+          "rugIds",
+          "overheadPercentage",
+          "profitPercentage",
+          "totalAmount",
+          "createdBy",
+          "id",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "clientName": "Test Client",
+          "quoteName": "Test Quote",
+          "rugIds": "[Array: 2 items]",
+          "overheadPercentage": "5",
+          "profitPercentage": "10",
+          "totalAmount": "1000",
+          "createdBy": "test_user",
+          "id": 1753029170669,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1753029177960",
+        "fields": [
+          "clientName",
+          "quoteName",
+          "rugIds",
+          "overheadPercentage",
+          "profitPercentage",
+          "unitType",
+          "currency",
+          "usdRate",
+          "totalAmount",
+          "buyerName",
+          "notes",
+          "status",
+          "createdBy",
+          "id",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "clientName": "Nourison",
+          "quoteName": "Test",
+          "rugIds": "[Array: 2 items]",
+          "overheadPercentage": "15",
+          "profitPercentage": "10",
+          "unitType": "PSM",
+          "currency": "INR",
+          "usdRate": "83.5",
+          "totalAmount": "3842.7537500000003",
+          "buyerName": "Nourison",
+          "notes": "",
+          "status": "draft",
+          "createdBy": "sampling_user",
+          "id": 1753029177960,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1753029242731",
+        "fields": [
+          "clientName",
+          "quoteName",
+          "rugIds",
+          "overheadPercentage",
+          "profitPercentage",
+          "unitType",
+          "currency",
+          "usdRate",
+          "totalAmount",
+          "buyerName",
+          "notes",
+          "status",
+          "createdBy",
+          "id",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "clientName": "Stanton",
+          "quoteName": "Test 2",
+          "rugIds": "[Array: 4 items]",
+          "overheadPercentage": "15",
+          "profitPercentage": "10",
+          "unitType": "PSM",
+          "currency": "INR",
+          "usdRate": "83.5",
+          "totalAmount": "18865.5522",
+          "buyerName": "Stanton",
+          "notes": "Meeting recap",
+          "status": "draft",
+          "createdBy": "sampling_user",
+          "id": 1753029242731,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1753029494787",
+        "fields": [
+          "clientName",
+          "quoteName",
+          "rugIds",
+          "overheadPercentage",
+          "profitPercentage",
+          "unitType",
+          "currency",
+          "usdRate",
+          "totalAmount",
+          "buyerName",
+          "notes",
+          "status",
+          "createdBy",
+          "id",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "clientName": "Zara",
+          "quoteName": "Final quote",
+          "rugIds": "[Array: 2 items]",
+          "overheadPercentage": "15",
+          "profitPercentage": "10",
+          "unitType": "PSM",
+          "currency": "INR",
+          "usdRate": "83.5",
+          "totalAmount": "3842.7537500000003",
+          "buyerName": "Zara",
+          "notes": "",
+          "status": "draft",
+          "createdBy": "sampling_user",
+          "id": 1753029494787,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1753030591990",
+        "fields": [
+          "clientName",
+          "quoteName",
+          "rugIds",
+          "overheadPercentage",
+          "profitPercentage",
+          "unitType",
+          "currency",
+          "usdRate",
+          "totalAmount",
+          "buyerName",
+          "notes",
+          "status",
+          "createdBy",
+          "id",
+          "createdAt",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "clientName": "PAYATI STUDIO",
+          "quoteName": "Usd test",
+          "rugIds": "[Array: 2 items]",
+          "overheadPercentage": "15",
+          "profitPercentage": "10",
+          "unitType": "PSM",
+          "currency": "INR",
+          "usdRate": "83.5",
+          "totalAmount": "7495.8334",
+          "buyerName": "PAYATI STUDIO",
+          "notes": "",
+          "status": "draft",
+          "createdBy": "sampling_user",
+          "id": 1753030591990,
+          "createdAt": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      }
+    ],
+    "purpose": "Unknown"
+  },
+  "roles": {
+    "documentCount": 5,
+    "sampleDocs": [
+      {
+        "id": "admin",
+        "fields": [
+          "name",
+          "description",
+          "departments",
+          "canEdit",
+          "canManageUsers"
+        ],
+        "sampleData": {
+          "name": "Administrator",
+          "description": "Full system access",
+          "departments": "[Array: 4 items]",
+          "canEdit": true,
+          "canManageUsers": true
+        }
+      },
+      {
+        "id": "quality_manager",
+        "fields": [
+          "name",
+          "description",
+          "departments",
+          "canEdit",
+          "canManageUsers"
+        ],
+        "sampleData": {
+          "name": "Quality Manager",
+          "description": "Manages quality and compliance",
+          "departments": "[Array: 2 items]",
+          "canEdit": true,
+          "canManageUsers": false
+        }
+      },
+      {
+        "id": "quality_team",
+        "fields": [
+          "name",
+          "description",
+          "departments",
+          "canEdit",
+          "canManageUsers"
+        ],
+        "sampleData": {
+          "name": "Quality Team",
+          "description": "Quality and compliance operations",
+          "departments": "[Array: 2 items]",
+          "canEdit": true,
+          "canManageUsers": false
+        }
+      },
+      {
+        "id": "sampling_team",
+        "fields": [
+          "name",
+          "description",
+          "departments",
+          "canEdit",
+          "canManageUsers"
+        ],
+        "sampleData": {
+          "name": "Sampling Team",
+          "description": "Product development and production",
+          "departments": "[Array: 2 items]",
+          "canEdit": true,
+          "canManageUsers": false
+        }
+      },
+      {
+        "id": "viewer",
+        "fields": [
+          "name",
+          "description",
+          "departments",
+          "canEdit",
+          "canManageUsers"
+        ],
+        "sampleData": {
+          "name": "Viewer",
+          "description": "Read-only access",
+          "departments": "[Array: 4 items]",
+          "canEdit": false,
+          "canManageUsers": false
+        }
+      }
+    ],
+    "purpose": "System Configuration"
+  },
+  "rugs": {
+    "documentCount": 93,
+    "sampleDocs": [
+      {
+        "id": "1752901115713",
+        "fields": [
+          "designName",
+          "construction",
+          "quality",
+          "color",
+          "primaryColor",
+          "secondaryColor",
+          "selectedColors",
+          "orderType",
+          "buyerName",
+          "opsNo",
+          "carpetNo",
+          "finishedGSM",
+          "unfinishedGSM",
+          "size",
+          "contractorType",
+          "contractorName",
+          "weaverName",
+          "submittedBy",
+          "washingContractor",
+          "hasWashing",
+          "fringesHemLength",
+          "fringesHemMaterial",
+          "packingCost",
+          "overheadPercentage",
+          "profitPercentage",
+          "processFlow",
+          "area",
+          "userId",
+          "finishingCost",
+          "typeOfDyeing",
+          "finalCostPSM",
+          "totalRugCost",
+          "reedNoQuality",
+          "totalMaterialCost",
+          "totalDirectCost",
+          "id",
+          "weavingCost",
+          "createdAt",
+          "shadeCardNo",
+          "materials",
+          "images",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "designName": "EM-25-FA-9091",
+          "construction": "Hand Knotted",
+          "quality": "3/20",
+          "color": "Ivory",
+          "primaryColor": "",
+          "secondaryColor": "",
+          "selectedColors": "[Array: 1 items]",
+          "orderType": "Sample",
+          "buyerName": "C-05",
+          "opsNo": "EM-25-232",
+          "carpetNo": "034822/251",
+          "finishedGSM": 0,
+          "unfinishedGSM": 4428,
+          "size": "5.0x8.0",
+          "contractorType": "inhouse",
+          "contractorName": "",
+          "weaverName": "Ayub+anwar ",
+          "submittedBy": "Faizan ",
+          "washingContractor": "Anuj Kumar yadav ",
+          "hasWashing": "yes",
+          "fringesHemLength": "",
+          "fringesHemMaterial": "",
+          "packingCost": 125,
+          "overheadPercentage": 5,
+          "profitPercentage": 0,
+          "processFlow": "[Array: 0 items]",
+          "area": 3.71612,
+          "userId": "demo-user",
+          "finishingCost": 250,
+          "typeOfDyeing": "Solid/Plain",
+          "finalCostPSM": 3058.3875,
+          "totalRugCost": 0,
+          "reedNoQuality": "",
+          "totalMaterialCost": 1137.75,
+          "totalDirectCost": 2912.75,
+          "id": "1752901115713",
+          "weavingCost": 1400,
+          "createdAt": "1970-01-01T00:00:00.000Z",
+          "shadeCardNo": "",
+          "materials": "[Array: 3 items]",
+          "images": "[Object]",
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1752903944398",
+        "fields": [
+          "designName",
+          "construction",
+          "quality",
+          "color",
+          "primaryColor",
+          "secondaryColor",
+          "selectedColors",
+          "orderType",
+          "buyerName",
+          "opsNo",
+          "carpetNo",
+          "finishedGSM",
+          "unfinishedGSM",
+          "size",
+          "contractorType",
+          "contractorName",
+          "submittedBy",
+          "washingContractor",
+          "hasWashing",
+          "fringesHemLength",
+          "fringesHemMaterial",
+          "shadeCardNo",
+          "packingCost",
+          "overheadPercentage",
+          "profitPercentage",
+          "images",
+          "area",
+          "userId",
+          "finishingCost",
+          "finalCostPSM",
+          "weaverName",
+          "totalRugCost",
+          "totalMaterialCost",
+          "typeOfDyeing",
+          "createdAt",
+          "reedNoQuality",
+          "materials",
+          "processFlow",
+          "totalDirectCost",
+          "id",
+          "weavingCost",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "designName": "EM-25-FA-9090",
+          "construction": "Hand Knotted",
+          "quality": "3/20",
+          "color": "Multi",
+          "primaryColor": "",
+          "secondaryColor": "",
+          "selectedColors": "[Array: 1 items]",
+          "orderType": "Sample",
+          "buyerName": "C-05",
+          "opsNo": "EM-25-232",
+          "carpetNo": "034820/251",
+          "finishedGSM": 0,
+          "unfinishedGSM": 4388,
+          "size": "5.0x8.0",
+          "contractorType": "inhouse",
+          "contractorName": "",
+          "submittedBy": "Faizan",
+          "washingContractor": "Anuj Kumar yadav ",
+          "hasWashing": "yes",
+          "fringesHemLength": "",
+          "fringesHemMaterial": "",
+          "shadeCardNo": "SC-22",
+          "packingCost": 125,
+          "overheadPercentage": 5,
+          "profitPercentage": 0,
+          "images": "[Object]",
+          "area": 3.71612,
+          "userId": "demo-user",
+          "finishingCost": 250,
+          "finalCostPSM": 3163.4505,
+          "weaverName": "Ramnesh+khethal",
+          "totalRugCost": 0,
+          "totalMaterialCost": 1237.81,
+          "typeOfDyeing": "Solid/Plain",
+          "createdAt": null,
+          "reedNoQuality": "",
+          "materials": "[Array: 4 items]",
+          "processFlow": "[Array: 4 items]",
+          "totalDirectCost": 3012.81,
+          "id": "1752903944398",
+          "weavingCost": 1400,
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1752915198431",
+        "fields": [
+          "designName",
+          "construction",
+          "quality",
+          "primaryColor",
+          "secondaryColor",
+          "orderType",
+          "opsNo",
+          "carpetNo",
+          "finishedGSM",
+          "unfinishedGSM",
+          "size",
+          "contractorType",
+          "contractorName",
+          "weaverName",
+          "submittedBy",
+          "washingContractor",
+          "hasWashing",
+          "fringesHemLength",
+          "fringesHemMaterial",
+          "shadeCardNo",
+          "packingCost",
+          "overheadPercentage",
+          "profitPercentage",
+          "processFlow",
+          "images",
+          "area",
+          "userId",
+          "finishingCost",
+          "finalCostPSM",
+          "totalRugCost",
+          "color",
+          "totalMaterialCost",
+          "buyerName",
+          "typeOfDyeing",
+          "createdAt",
+          "reedNoQuality",
+          "materials",
+          "totalDirectCost",
+          "selectedColors",
+          "id",
+          "weavingCost",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "designName": "EM-25-FA-9090",
+          "construction": "Hand Knotted",
+          "quality": "3/20",
+          "primaryColor": "",
+          "secondaryColor": "",
+          "orderType": "Sample",
+          "opsNo": "EM-25-232",
+          "carpetNo": "034819/251",
+          "finishedGSM": 0,
+          "unfinishedGSM": 4731,
+          "size": "5.0x8.0",
+          "contractorType": "inhouse",
+          "contractorName": "",
+          "weaverName": "Tufani ",
+          "submittedBy": "Faizan ",
+          "washingContractor": "Anuj Kumar yadav ",
+          "hasWashing": "yes",
+          "fringesHemLength": "",
+          "fringesHemMaterial": "",
+          "shadeCardNo": "SC-23",
+          "packingCost": 125,
+          "overheadPercentage": 5,
+          "profitPercentage": 0,
+          "processFlow": "[Array: 0 items]",
+          "images": "[Object]",
+          "area": 3.71612,
+          "userId": "demo-user",
+          "finishingCost": 250,
+          "finalCostPSM": 3364.3260000000005,
+          "totalRugCost": 0,
+          "color": "MULTI-COLORWAY-2",
+          "totalMaterialCost": 1429.1200000000003,
+          "buyerName": "CB",
+          "typeOfDyeing": "Solid/Plain",
+          "createdAt": null,
+          "reedNoQuality": "",
+          "materials": "[Array: 4 items]",
+          "totalDirectCost": 3204.1200000000003,
+          "selectedColors": "[Array: 1 items]",
+          "id": "1752915198431",
+          "weavingCost": 1400,
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1752916058231",
+        "fields": [
+          "designName",
+          "construction",
+          "quality",
+          "primaryColor",
+          "secondaryColor",
+          "orderType",
+          "buyerName",
+          "opsNo",
+          "carpetNo",
+          "finishedGSM",
+          "unfinishedGSM",
+          "size",
+          "typeOfDyeing",
+          "contractorType",
+          "contractorName",
+          "weaverName",
+          "submittedBy",
+          "washingContractor",
+          "hasWashing",
+          "fringesHemLength",
+          "fringesHemMaterial",
+          "packingCost",
+          "overheadPercentage",
+          "profitPercentage",
+          "area",
+          "userId",
+          "createdAt",
+          "images",
+          "totalRugCost",
+          "reedNoQuality",
+          "color",
+          "selectedColors",
+          "id",
+          "finishingCost",
+          "finalCostPSM",
+          "shadeCardNo",
+          "weftIn6Inches",
+          "materials",
+          "warpIn6Inches",
+          "totalMaterialCost",
+          "processFlow",
+          "totalDirectCost",
+          "weavingCost",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "designName": "EM-23-MA-6258 V1",
+          "construction": "Hand Knotted",
+          "quality": "8/33",
+          "primaryColor": "",
+          "secondaryColor": "",
+          "orderType": "Sample",
+          "buyerName": "STARK S-04",
+          "opsNo": "EM-24-1282",
+          "carpetNo": "000388/251+000389/251",
+          "finishedGSM": 0,
+          "unfinishedGSM": 2055,
+          "size": "2.0x2.0",
+          "typeOfDyeing": "",
+          "contractorType": "inhouse",
+          "contractorName": "",
+          "weaverName": "Iqbal+chotelal",
+          "submittedBy": "Faizan ",
+          "washingContractor": "Anuj Kumar yadav ",
+          "hasWashing": "yes",
+          "fringesHemLength": "",
+          "fringesHemMaterial": "",
+          "packingCost": 125,
+          "overheadPercentage": 5,
+          "profitPercentage": 0,
+          "area": 0.371612,
+          "userId": "demo-user",
+          "createdAt": null,
+          "images": "[Object]",
+          "totalRugCost": 0,
+          "reedNoQuality": "",
+          "color": "White + Grey",
+          "selectedColors": "[Array: 2 items]",
+          "id": "1752916058231",
+          "finishingCost": 250,
+          "finalCostPSM": 8019.1125,
+          "shadeCardNo": "SC-24",
+          "weftIn6Inches": 44,
+          "materials": "[Array: 4 items]",
+          "warpIn6Inches": 107,
+          "totalMaterialCost": 3262.2499999999995,
+          "processFlow": "[Array: 3 items]",
+          "totalDirectCost": 7637.25,
+          "weavingCost": 4000,
+          "updatedAt": "[Object]"
+        }
+      },
+      {
+        "id": "1752916326025",
+        "fields": [
+          "designName",
+          "construction",
+          "quality",
+          "color",
+          "primaryColor",
+          "secondaryColor",
+          "selectedColors",
+          "orderType",
+          "buyerName",
+          "opsNo",
+          "carpetNo",
+          "finishedGSM",
+          "unfinishedGSM",
+          "size",
+          "typeOfDyeing",
+          "contractorType",
+          "contractorName",
+          "weaverName",
+          "submittedBy",
+          "washingContractor",
+          "hasWashing",
+          "fringesHemLength",
+          "fringesHemMaterial",
+          "packingCost",
+          "overheadPercentage",
+          "profitPercentage",
+          "images",
+          "area",
+          "userId",
+          "finishingCost",
+          "finalCostPSM",
+          "totalRugCost",
+          "totalMaterialCost",
+          "createdAt",
+          "shadeCardNo",
+          "reedNoQuality",
+          "materials",
+          "processFlow",
+          "totalDirectCost",
+          "id",
+          "weavingCost",
+          "updatedAt"
+        ],
+        "sampleData": {
+          "designName": "EM-23-MA-6245",
+          "construction": "Hand Knotted",
+          "quality": "7/20",
+          "color": "White",
+          "primaryColor": "",
+          "secondaryColor": "",
+          "selectedColors": "[Array: 1 items]",
+          "orderType": "Sample",
+          "buyerName": "STARK S-04 ",
+          "opsNo": "EM-24-1282",
+          "carpetNo": "000384/251+000385/251",
+          "finishedGSM": 0,
+          "unfinishedGSM": 2267,
+          "size": "2.0x2.0",
+          "typeOfDyeing": "",
+          "contractorType": "inhouse",
+          "contractorName": "",
+          "weaverName": "Rajmani+Alauddin ",
+          "submittedBy": "Faizan ",
+          "washingContractor": "Anuj Kumar yadav ",
+          "hasWashing": "yes",
+          "fringesHemLength": "",
+          "fringesHemMaterial": "",
+          "packingCost": 125,
+          "overheadPercentage": 5,
+          "profitPercentage": 0,
+          "images": "[Object]",
+          "area": 0.371612,
+          "userId": "demo-user",
+          "finishingCost": 250,
+          "finalCostPSM": 9000.127499999999,
+          "totalRugCost": 0,
+          "totalMaterialCost": 5196.55,
+          "createdAt": null,
+          "shadeCardNo": "SC-25",
+          "reedNoQuality": "",
+          "materials": "[Array: 5 items]",
+          "processFlow": "[Array: 4 items]",
+          "totalDirectCost": 8571.55,
+          "id": "1752916326025",
+          "weavingCost": 3000,
+          "updatedAt": "[Object]"
+        }
+      }
+    ],
+    "purpose": "Sampling/Gallery (KEEP)"
+  },
+  "users": {
+    "documentCount": 7,
+    "sampleDocs": [
+      {
+        "id": "HLmUpG5iLfESm9OYZMLc",
+        "fields": [
+          "email",
+          "name",
+          "role",
+          "departments",
+          "isActive",
+          "createdAt",
+          "lastLogin"
+        ],
+        "sampleData": {
+          "email": "abdulansari@easternmills.com",
+          "name": "Abdul Ansari",
+          "role": "admin",
+          "departments": "[Array: 4 items]",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "lastLogin": null
+        }
+      },
+      {
+        "id": "KOQ40K45OxItiDlUoBCC",
+        "fields": [
+          "email",
+          "name",
+          "role",
+          "departments",
+          "isActive",
+          "createdAt",
+          "lastLogin"
+        ],
+        "sampleData": {
+          "email": "studio@easternmills.com",
+          "name": "Studio Eastern",
+          "role": "sampling_team",
+          "departments": "[Array: 2 items]",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "lastLogin": null
+        }
+      },
+      {
+        "id": "QUnqoQn8ixVhJttitYnO",
+        "fields": [
+          "email",
+          "name",
+          "role",
+          "departments",
+          "isActive",
+          "createdAt",
+          "lastLogin"
+        ],
+        "sampleData": {
+          "email": "lab.easternmills@gmail.com",
+          "name": "Lab Eastern",
+          "role": "quality_team",
+          "departments": "[Array: 2 items]",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "lastLogin": null
+        }
+      },
+      {
+        "id": "RbCt3miOmegu9tYTRDaM",
+        "fields": [
+          "email",
+          "name",
+          "role",
+          "departments",
+          "isActive",
+          "createdAt",
+          "lastLogin"
+        ],
+        "sampleData": {
+          "email": "danishsampling.eastern@gmail.com",
+          "name": "Danish Sampling",
+          "role": "sampling_team",
+          "departments": "[Array: 2 items]",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "lastLogin": null
+        }
+      },
+      {
+        "id": "VRYmYoRTBTchfiRMa2x4",
+        "fields": [
+          "email",
+          "name",
+          "role",
+          "departments",
+          "isActive",
+          "createdAt",
+          "lastLogin"
+        ],
+        "sampleData": {
+          "email": "faizan.easternmills@gmail.com",
+          "name": "Faizan Eastern",
+          "role": "sampling_team",
+          "departments": "[Array: 2 items]",
+          "isActive": true,
+          "createdAt": "[Object]",
+          "lastLogin": null
+        }
+      }
+    ],
+    "purpose": "User Management"
+  }
+}

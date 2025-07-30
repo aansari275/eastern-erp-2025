@@ -1,0 +1,56 @@
+{
+  "NEW_PROJECT_ID": "your-new-firebase-project-id",
+  "NEW_SERVICE_ACCOUNT_PATH": "./server/NEW_serviceAccountKey.json",
+  "COLLECTIONS_TO_MIGRATE": [
+    "rugs",
+    "buyers",
+    "pdocs",
+    "quotes"
+  ],
+  "SKIP_COLLECTIONS": [
+    "users"
+  ],
+  "ADMIN_USER": {
+    "uid": "new-admin-uid",
+    "email": "abdulansari@easternmills.com",
+    "displayName": "Abdul Rahim Ansari",
+    "role": "super_admin",
+    "department": "admin",
+    "departments": [
+      "quality",
+      "sampling",
+      "merchandising",
+      "production",
+      "admin"
+    ],
+    "permissions": [
+      "manage_users",
+      "manage_permissions",
+      "view_all_data",
+      "view_quality_dashboard",
+      "manage_quality_audits",
+      "view_compliance_reports",
+      "edit_compliance_audits",
+      "view_lab_inspections",
+      "manage_lab_inspections",
+      "view_bazaar_inspections",
+      "manage_bazaar_inspections",
+      "view_sampling_dashboard",
+      "manage_rug_creation",
+      "view_gallery",
+      "manage_gallery",
+      "view_costing",
+      "manage_costing",
+      "view_merchandising_dashboard",
+      "manage_buyers",
+      "view_orders",
+      "manage_orders",
+      "view_production_dashboard",
+      "manage_production"
+    ],
+    "isActive": true,
+    "isAuthorized": true,
+    "preventAutoUpdate": true,
+    "isManuallyConfigured": true
+  }
+}

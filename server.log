@@ -1,0 +1,90 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+Checking for service account at: /Users/abdul/Documents/Apps/Rug Craft Pro/RugCraftPro/server/serviceAccountKey.json
+File exists? true
+✓ Service account file loaded successfully
+✓ Firebase initialized with service account
+✅ Firebase Admin already initialized
+✅ Firebase client initialized, Admin SDK: enabled
+🔧 Starting server initialization...
+🔧 Environment: development
+🔧 Current working directory: /Users/abdul/Documents/Apps/Rug Craft Pro/RugCraftPro
+🔧 Firebase Project ID: Not set
+🔧 Port: 5000
+Setting up Firebase Authentication...
+Firebase Authentication setup complete
+✓ Authentication setup complete
+✓ Routes registered
+🔧 Setting up static file serving...
+🔧 Working directory: /Users/abdul/Documents/Apps/Rug Craft Pro/RugCraftPro
+🔧 Dist directory exists: true
+✅ Using public directory: /Users/abdul/Documents/Apps/Rug Craft Pro/RugCraftPro/server/public
+✓ Static file serving setup complete
+🚀 Starting server...
+Port 5000 is busy, trying port 5001
+9:18:07 PM [express] Server running in development mode on http://0.0.0.0:5000
+✅ Server successfully started on port 5000
+🔧 Starting background initialization...
+🔧 Setting up permissions and test users...
+9:18:07 PM [express] Server running in development mode on http://0.0.0.0:5001
+✅ Server successfully started on port 5001
+🔧 Starting background initialization...
+🔧 Setting up permissions and test users...
+User user123 assigned role role001
+User user123 assigned role role001
+User user456 assigned role role003
+✓ Permissions and users setup complete
+✅ Background initialization complete
+User user456 assigned role role003
+✓ Permissions and users setup complete
+✅ Background initialization complete
+🔍 Searching for user by email: abdulansari@easternmills.com
+🔍 Searching for user by email: abdulansari@easternmills.com
+🔍 Searching for user by email: abdulansari@easternmills.com
+🔍 Searching for user by email: abdulansari@easternmills.com
+  Checking user Ag9zUVpvbtdRhOEyY6iccP4bbmu2: email=abdulansari@easternmills.com
+✅ Found matching user: Ag9zUVpvbtdRhOEyY6iccP4bbmu2
+  Checking user KOQ40K45OxItiDlUoBCC: email=studio@easternmills.com
+  Checking user QUnqoQn8ixVhJttitYnO: email=lab.easternmills@gmail.com
+  Checking user RbCt3miOmegu9tYTRDaM: email=danishsampling.eastern@gmail.com
+  Checking user VRYmYoRTBTchfiRMa2x4: email=faizan.easternmills@gmail.com
+  Checking user user123: email=user@example.com
+  Checking user user456: email=user2@example.com
+  Checking user wOZ9e5sGjoJ55J5MvjGI: email=quality.manager@easternmills.com
+  Checking user zQchIRosmWPMf7o3ENXr: email=faizanansari05100@gmail.com
+✅ Found user by email: abdulansari@easternmills.com { Role: 'user', DepartmentId: 'quality' }
+  Checking user Ag9zUVpvbtdRhOEyY6iccP4bbmu2: email=abdulansari@easternmills.com
+✅ Found matching user: Ag9zUVpvbtdRhOEyY6iccP4bbmu2
+  Checking user KOQ40K45OxItiDlUoBCC: email=studio@easternmills.com
+  Checking user QUnqoQn8ixVhJttitYnO: email=lab.easternmills@gmail.com
+  Checking user RbCt3miOmegu9tYTRDaM: email=danishsampling.eastern@gmail.com
+  Checking user VRYmYoRTBTchfiRMa2x4: email=faizan.easternmills@gmail.com
+  Checking user user123: email=user@example.com
+  Checking user user456: email=user2@example.com
+  Checking user wOZ9e5sGjoJ55J5MvjGI: email=quality.manager@easternmills.com
+  Checking user zQchIRosmWPMf7o3ENXr: email=faizanansari05100@gmail.com
+✅ Found user by email: abdulansari@easternmills.com { Role: 'user', DepartmentId: 'quality' }
+  Checking user Ag9zUVpvbtdRhOEyY6iccP4bbmu2: email=abdulansari@easternmills.com
+✅ Found matching user: Ag9zUVpvbtdRhOEyY6iccP4bbmu2
+  Checking user KOQ40K45OxItiDlUoBCC: email=studio@easternmills.com
+  Checking user QUnqoQn8ixVhJttitYnO: email=lab.easternmills@gmail.com
+  Checking user RbCt3miOmegu9tYTRDaM: email=danishsampling.eastern@gmail.com
+  Checking user VRYmYoRTBTchfiRMa2x4: email=faizan.easternmills@gmail.com
+  Checking user user123: email=user@example.com
+  Checking user user456: email=user2@example.com
+  Checking user wOZ9e5sGjoJ55J5MvjGI: email=quality.manager@easternmills.com
+  Checking user zQchIRosmWPMf7o3ENXr: email=faizanansari05100@gmail.com
+✅ Found user by email: abdulansari@easternmills.com { Role: 'user', DepartmentId: 'quality' }
+  Checking user Ag9zUVpvbtdRhOEyY6iccP4bbmu2: email=abdulansari@easternmills.com
+✅ Found matching user: Ag9zUVpvbtdRhOEyY6iccP4bbmu2
+  Checking user KOQ40K45OxItiDlUoBCC: email=studio@easternmills.com
+  Checking user QUnqoQn8ixVhJttitYnO: email=lab.easternmills@gmail.com
+  Checking user RbCt3miOmegu9tYTRDaM: email=danishsampling.eastern@gmail.com
+  Checking user VRYmYoRTBTchfiRMa2x4: email=faizan.easternmills@gmail.com
+  Checking user user123: email=user@example.com
+  Checking user user456: email=user2@example.com
+  Checking user wOZ9e5sGjoJ55J5MvjGI: email=quality.manager@easternmills.com
+  Checking user zQchIRosmWPMf7o3ENXr: email=faizanansari05100@gmail.com
+✅ Found user by email: abdulansari@easternmills.com { Role: 'user', DepartmentId: 'quality' }

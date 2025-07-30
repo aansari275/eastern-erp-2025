@@ -1,0 +1,147 @@
+[
+  {
+    "id": "ShXeIyrFiyV7pZzFhd4C",
+    "auditDate": "2025-07-27",
+    "company": "EHI",
+    "auditor": "Console Test",
+    "status": "draft",
+    "checklist": [
+      {
+        "code": "CONSOLE_TEST",
+        "question": "Testing Firebase console visibility",
+        "response": "Yes",
+        "remark": "This should appear in Firebase console immediately",
+        "evidence": []
+      }
+    ],
+    "createdAt": "2025-07-27T16:51:26.783Z"
+  },
+  {
+    "id": "WvpBfrPQfJu0GnRBrLl5",
+    "auditDate": "2025-07-28",
+    "company": "EHI",
+    "auditor": "Validation Fix Test",
+    "status": "draft",
+    "checklist": [
+      {
+        "code": "FIXED_VALIDATION",
+        "question": "Testing undefined response fix - should work now",
+        "response": "",
+        "remark": "This should save without Firebase validation errors after fix",
+        "evidence": []
+      }
+    ],
+    "createdAt": "2025-07-28T03:50:14.153Z"
+  },
+  {
+    "id": "XKK0UJp9fc6SxK78YVEt",
+    "auditDate": "2025-07-27",
+    "company": "EHI",
+    "auditor": "FIREBASE_CONSOLE_VISIBILITY_TEST",
+    "status": "submitted",
+    "checklist": [
+      {
+        "code": "VISIBILITY_TEST_2025",
+        "question": "Can you see this audit record in Firebase Console now?",
+        "response": "Yes",
+        "remark": "THIS SHOULD BE VISIBLE IN FIREBASE CONSOLE RUGCRAFTPRO PROJECT",
+        "evidence": []
+      }
+    ],
+    "createdAt": "2025-07-27T16:51:58.253Z",
+    "submittedAt": "2025-07-27T16:51:58.253Z"
+  },
+  {
+    "id": "h8rQaanwQx1sbHvtlxl6",
+    "auditDate": "2025-07-27",
+    "company": "EMPL",
+    "auditor": "Firebase Test User",
+    "status": "submitted",
+    "checklist": [
+      {
+        "code": "TEST1",
+        "question": "This is a test question to verify Firebase collection creation",
+        "response": "Yes",
+        "remark": "Testing Firebase collection creation",
+        "evidence": []
+      }
+    ],
+    "createdAt": "2025-07-27T16:49:50.011Z",
+    "submittedAt": "2025-07-27T16:49:50.011Z"
+  },
+  {
+    "id": "iZZSy94WGV0dVPrs5ZLn",
+    "auditDate": "2025-07-27",
+    "company": "EHI",
+    "auditor": "DEBUG TEST",
+    "status": "draft",
+    "checklist": [
+      {
+        "code": "DEBUG1",
+        "question": "Is the frontend save working?",
+        "response": "Yes",
+        "remark": "Testing frontend save functionality",
+        "evidence": []
+      }
+    ],
+    "createdAt": "2025-07-27T16:55:04.028Z"
+  },
+  {
+    "id": "ltoKox5KjpohDsnnvC6u",
+    "auditDate": "2025-07-27",
+    "company": "EHI",
+    "auditor": "Test Auditor V2",
+    "status": "draft",
+    "checklist": [
+      {
+        "code": "C1",
+        "question": "Are design and development procedures established?",
+        "response": "Yes",
+        "remark": "Testing clean V2 structure",
+        "evidence": []
+      }
+    ],
+    "createdAt": "2025-07-27T16:38:21.907Z"
+  },
+  {
+    "id": "tzCuvD2nB6D4ufXVMpf1",
+    "auditDate": "2025-07-27",
+    "company": "EHI",
+    "auditor": "Test User",
+    "status": "draft",
+    "checklist": [
+      {
+        "code": "C1",
+        "question": "Are design and development procedures established?",
+        "response": "Yes",
+        "remark": "Test remark",
+        "evidence": []
+      },
+      {
+        "code": "C2",
+        "question": "Are design input requirements identified and reviewed?",
+        "response": "No",
+        "remark": "Needs improvement",
+        "evidence": []
+      }
+    ],
+    "createdAt": "2025-07-27T16:48:47.763Z"
+  },
+  {
+    "id": "yP2JdANtIiXgzGWbJEcU",
+    "auditDate": "2025-07-27",
+    "company": "EHI",
+    "auditor": "WORKING TEST",
+    "status": "draft",
+    "checklist": [
+      {
+        "code": "WORKING_TEST",
+        "question": "Is the new audit API working correctly?",
+        "response": "Yes",
+        "remark": "New audit endpoint is operational",
+        "evidence": []
+      }
+    ],
+    "createdAt": "2025-07-27T16:56:05.153Z"
+  }
+]

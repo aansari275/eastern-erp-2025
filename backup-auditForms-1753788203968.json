@@ -1,0 +1,75 @@
+[
+  {
+    "id": "A8n1m1MgQpRXp3f3rB9a",
+    "createdBy": "abdulansari@easternmills.com",
+    "status": "draft",
+    "company": "Eastern Home Industries",
+    "auditType": "Final Inspection",
+    "sections": [
+      {
+        "title": "Packing",
+        "questions": [
+          {
+            "question": "Is packing as per spec?",
+            "answer": "",
+            "comments": "",
+            "images": []
+          },
+          {
+            "question": "Are labels properly attached?",
+            "answer": "",
+            "comments": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "title": "Quality Check",
+        "questions": [
+          {
+            "question": "Does the product meet quality standards?",
+            "answer": "",
+            "comments": "",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "createdAt": {
+      "_seconds": 1753687546,
+      "_nanoseconds": 537000000
+    },
+    "updatedAt": {
+      "_seconds": 1753687546,
+      "_nanoseconds": 537000000
+    }
+  },
+  {
+    "id": "WCRZmLF0PJA80rkhPQvr",
+    "createdBy": "abdulansari@easternmills.com",
+    "status": "submitted",
+    "company": "Eastern Home Industries",
+    "auditType": "Washing",
+    "sections": [
+      {
+        "title": "Washing Process",
+        "questions": [
+          {
+            "question": "Is washing temperature correct?",
+            "answer": "Yes",
+            "comments": "Temperature maintained at 40°C",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "createdAt": {
+      "_seconds": 1753687546,
+      "_nanoseconds": 635000000
+    },
+    "updatedAt": {
+      "_seconds": 1753687546,
+      "_nanoseconds": 635000000
+    }
+  }
+]

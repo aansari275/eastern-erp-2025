@@ -1,0 +1,182 @@
+[
+  {
+    "id": "merchandising-buyers",
+    "department_id": "merchandising",
+    "name": "Buyer Management",
+    "slug": "buyers",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "merchandising-pdoc",
+    "department_id": "merchandising",
+    "name": "PDOC Management",
+    "slug": "pdoc",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "production-overview",
+    "department_id": "production",
+    "name": "Overview",
+    "slug": "overview",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "production-schedule",
+    "department_id": "production",
+    "name": "Schedule",
+    "slug": "schedule",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "quality-bazaar",
+    "department_id": "quality",
+    "name": "Bazaar Inspection",
+    "slug": "bazaar",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "quality-binding",
+    "department_id": "quality",
+    "name": "Binding Process",
+    "slug": "binding",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "quality-compliance",
+    "department_id": "quality",
+    "name": "Quality Compliance",
+    "slug": "compliance",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "quality-lab",
+    "department_id": "quality",
+    "name": "Lab",
+    "slug": "lab",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "sampling-costing",
+    "department_id": "sampling",
+    "name": "Costing Review",
+    "slug": "costing",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "sampling-create",
+    "department_id": "sampling",
+    "name": "Create New Rug",
+    "slug": "create",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "sampling-gallery",
+    "department_id": "sampling",
+    "name": "Rug Gallery",
+    "slug": "gallery",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "sampling-quotes",
+    "department_id": "sampling",
+    "name": "Quote History",
+    "slug": "quotes",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  }
+]

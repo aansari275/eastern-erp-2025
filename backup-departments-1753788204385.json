@@ -1,0 +1,84 @@
+[
+  {
+    "id": "admin",
+    "name": "Admin",
+    "description": "Administrative Department",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "dept001",
+    "DepartmentId": "dept001",
+    "DepartmentName": "Sampling",
+    "ManagerId": "user123"
+  },
+  {
+    "id": "dept002",
+    "DepartmentId": "dept002",
+    "DepartmentName": "Merchandising",
+    "ManagerId": "user456"
+  },
+  {
+    "id": "merchandising",
+    "name": "Merchandising",
+    "description": "Merchandising Department",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "production",
+    "name": "Production",
+    "description": "Production Department",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "quality",
+    "name": "Quality",
+    "description": "Quality Control Department",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  },
+  {
+    "id": "sampling",
+    "name": "Sampling",
+    "description": "Sampling Department",
+    "is_active": true,
+    "created_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    },
+    "updated_at": {
+      "_seconds": 1753335547,
+      "_nanoseconds": 370000000
+    }
+  }
+]
